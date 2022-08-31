@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/lupa.ico" type="image/x-icon">
+    <title>Decodificador</title>
+</head>
+<body>
+
+   <section class="content">
+        <div class="input">
+            <div class="logo">
+                <img src="imagens/logo_alura.png">
+            </div>
+            
+            <textarea spellcheck="false" id="input-text" placeholder="Digite aqui seu texto... "></textarea>
+        
+
+            <div class="buttons">
+                <div class="btn-container">
+                    <p class="info"><img src="imagens/atencao.png" > Apenas letas minúsculas e sem acento. </p>
+                    <button onclick="criptografarFunction()" class="btn-criptografar">Criptografar</button>
+                    <button onclick="descriptografarFunction()" class="btn-descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+    <div id="output">
+        <img class="img1" src="imagens/output.png">
+        <h1>Nenhuma mensagem encontrada!</h1>
+        <p>Digite um texto que deseja criptografar ou descriptografar</p>
+    </div>    
+   </section> 
+   <script src="script.js"></script>
+</body>
+</html>
